@@ -26,15 +26,24 @@
             border: 1px solid black;
             padding: 8px;
         }
+        col.cnome{
+            background-color: burlywood;
+        }
     </Style>
 </head>
 <body>
     <h1>Exercícios de tabela</h1>
 
     <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprofissao">
+        </colgroup>
         <tr>
             <caption>Cadastro</caption>
-            <th scope="col">Nome</th>
+            <th scope="col" style="background-color: aliceblue;">Nome</th>
             <th scope="col">Sexo</th>
             <th scope="col">Idade</th>
             <th scope="col">Profissão</th>
